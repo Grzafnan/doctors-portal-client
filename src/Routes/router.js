@@ -14,6 +14,7 @@ import AdminRoute from "./AdminRoute/AdminRoute";
 import AddDoctor from "../components/Pages/Dashboard/AddDoctor/AddDoctor";
 import ManageDoctors from "../components/Pages/Dashboard/ManageDoctors/ManageDoctors";
 import Payment from "../components/Pages/Dashboard/Payment/Payment";
+import ComingSoon from "../components/Shared/ComingSoon";
 
 export const router = createBrowserRouter([
   {
@@ -40,7 +41,15 @@ export const router = createBrowserRouter([
       {
         path: '/appointment',
         element: <Appointment />
-      }
+      },
+      {
+        path: '/reviews',
+        element: <ComingSoon />
+      },
+      {
+        path: '/about',
+        element: <ComingSoon />
+      },
     ]
   },
   {

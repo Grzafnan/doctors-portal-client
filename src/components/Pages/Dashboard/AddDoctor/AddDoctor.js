@@ -4,7 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 import { useDropzone } from 'react-dropzone';
 import { useForm } from 'react-hook-form';
 import Spinner from '../../../Spinner/Spinner';
-import uploadImage from '../../../../assets/icons/upload-img.svg'
+import uploadImage from '../../../../assets/icons/Group 83.svg'
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 

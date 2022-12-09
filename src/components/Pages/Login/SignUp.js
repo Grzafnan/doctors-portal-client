@@ -87,8 +87,8 @@ const SignUp = () => {
   }
 
 
-  const saveUserDB = (name, email) => {
-    const user = { name, email };
+  const saveUserDB = (name, email, role) => {
+    const user = { name, email, role };
     axios.post(`https://doctors-portal-server-beige.vercel.app/users`, {
       user,
       headers: {
